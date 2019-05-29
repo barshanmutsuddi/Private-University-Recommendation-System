@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:background="#FFA500"
+        android:paddingVertical="20dp"
+        android:textColor="#262626"
+        android:textAlignment="center"
+        android:textSize="22dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER INFO"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="160dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#FFA500"
+        android:text="SIGN IN"
+        android:textColor="#262626"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:onClick="SignIn"/>
+
+    <TextView
+        android:id="@+id/text_view_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Not Registered?   Register"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="#262626"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB732"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB732"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="University Recommendation System"
+        android:textAlignment="center"
+        android:textColor="#262626"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="60dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Why URS?"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:textSize="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Get recommendation of private university for higher education."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="2. Find private varsity according to user preference."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="How it works?"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:textSize="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Register with student's information"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="2. Log In and Choose Division, Subject and Fee"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="3. See the Top 3 results with direct link of website"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOR REGISTRATION"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="15dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFA500"
+        android:background="#262626"
+        android:layout_marginHorizontal="60dp"
+        android:onClick="registrationNote"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOR LOG IN"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFA500"
+        android:background="#262626"
+        android:layout_marginHorizontal="60dp"
+        android:onClick="loginNote"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Private University Admission"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Registration"
+            android:textSize="22dp"
+            android:paddingVertical="10dp"
+            android:background="#FFA500"
+            android:textColor="#262626"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/text_view_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If Registered please Sign In"
+            android:textColor="#0000B2"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/text_view_reginfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For registration please fill up the form and click save button."
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="35dp"/>
+
+
+        <EditText
+            android:id="@+id/edit_text_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:inputType="text"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="SSC GPA"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_ssc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:maxLength="4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HSC GPA"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_hsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_marginHorizontal="40dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginHorizontal="40dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginHorizontal="40dp"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textColor="#262626"
+            android:background="#FFA500"
+            android:textStyle="bold"
+            android:onClick="saveNote"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
